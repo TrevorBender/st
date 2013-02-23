@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Inconsolata:pixelsize=12:antialias=true:autohint=false";
+static char font[] = "Inconsolata:pixelsize=13:antialias=true:autohint=true";
 static int borderpx = 2;
 static char shell[] = "/bin/sh";
 
@@ -48,7 +48,7 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
+	"#93A1A1",
 	"#333333",
 };
 
