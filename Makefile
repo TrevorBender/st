@@ -5,6 +5,7 @@ include config.mk
 
 SRC = st.c
 OBJ = ${SRC:.c=.o}
+CFLAGS += -DGRUVBOX
 
 all: options st
 
